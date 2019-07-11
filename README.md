@@ -25,6 +25,8 @@ It checks for `display.max_rows` and `display.max_columns` and uses them by defa
 >>> fake_dates = [fake.date_between(start_date=start_date, end_date=end_date) for x in range(1000)]
 >>> df = DataFrameWithHelpers(fake_dates,columns=['Date'])
 >>> print(df.tabulate())
+```
+```
 ---  ----------
 0    2017-10-21
 1    2017-11-09
@@ -53,6 +55,8 @@ It checks for `display.max_rows` and `display.max_columns` and uses them by defa
 
 ```python
 >>> print(df.tabulate(headers='keys', tablefmt="github",))
+```
+```
 |     | Date       |
 |-----|------------|
 | 0   | 2017-10-21 |
