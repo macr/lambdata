@@ -7,7 +7,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='lambdata-richmondtest',
-    version='0.0.8',
+    version='0.0.9',
     description='Helper functions',
     long_description=long_description,
     long_description_content_type='text/markdown',

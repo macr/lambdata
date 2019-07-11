@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "93009a11ff568c072e35995c67e6cce484d742fa28f2c7c9ae32caa056b72da2"
+            "sha256": "9c37129cf35c8c9b38b6d6c9cc2654924de9c8f3b211ce0dc42b0370bd6f61b9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -233,6 +233,10 @@
             ],
             "version": "==4.3.21"
         },
+        "lambda-richmondtest": {
+            "editable": true,
+            "path": "."
+        },
         "lazy-object-proxy": {
             "hashes": [
                 "sha256:159a745e61422217881c4de71f9eafd9d703b93af95618635849fe469a283661",
@@ -306,6 +310,14 @@
             ],
             "markers": "implementation_name == 'cpython'",
             "version": "==1.4.0"
+        },
+        "v": {
+            "hashes": [
+                "sha256:2d5a8f79a36aaebe62ef2c7068e3ec7f86656078202edabfdbf74715dc822d36",
+                "sha256:cd6b6b20b4a611f209c88bcdfb7211321f85662efb2bdd53a7b40314d0a84618"
+            ],
+            "index": "pypi",
+            "version": "==0.0.0"
         },
         "wrapt": {
             "hashes": [

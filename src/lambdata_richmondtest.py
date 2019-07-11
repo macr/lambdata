@@ -133,4 +133,4 @@ def plot_confusion_matrix(y_true: Iterable, y_pred: Iterable) -> Axes:
     return sns.heatmap(table, annot=True, fmt='d', cmap='viridis')
 
 
-__version__ = '0.0.8'
+__version__ = '0.0.9'

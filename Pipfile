@@ -6,6 +6,8 @@ verify_ssl = true
 [dev-packages]
 pylint = "*"
 pep8 = "*"
+lambda-richmondtest = {editable = true,path = "."}
+v = {editable = true,version = "*"}
 
 [packages]
 pandas = "*"
